@@ -1,0 +1,555 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.parento{
+    height: 100vh;
+    width: 100%;
+    background-image: url(/images/main8.jpg);
+    background-size: cover;
+}
+
+.opc{
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.568);
+}
+
+
+.navbar{
+    height: 10%;
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    /* justify-content: center; */
+    flex-direction: row;
+    /* background-color: aqua; */
+    align-items: center;
+    color: white;
+    
+    
+   
+   
+    
+}
+
+.navbar p{
+    margin: 10px;
+    margin-right: 30px;
+    font-weight: bold;
+    font-size: 14px;
+
+
+}
+
+.navbar button{
+    height: 40%;
+    width: 8%;
+    border-radius: 20px;
+    border: none;
+    margin-right: 40px;
+    color: black;
+    background-color: azure;
+
+}
+.lasty{
+    height: 90%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+.lasty button{
+    height: 40px;
+    width: 15%;
+    border-radius: 30px;
+    border: none;
+    background-color: red;
+    color: white;
+}
+.lasty h2{
+/* margin-left: 20px; */
+text-align: center;
+/* margin-bottom: 30px; */
+}
+.lasty p{
+    margin-bottom: 30px;
+    color: whitesmoke;
+}
+
+.stepfather{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+  
+}
+.son{
+    height: 100%;
+    width: 30%;
+    
+}
+.son h6{
+    color: #ff5c75;
+    margin-top: 60px;
+    margin-left: 20px;    
+
+    
+}
+.son h2{
+  font-size: 50px;
+  font-weight: bold;
+  margin-left: 20px;
+  margin-top: 10px;
+}
+.son p{
+    margin-left: 20px;
+    margin-top: 20px; 
+}
+.son button{
+    height: 30px;
+    width: 190px;
+    border-radius: 40px;
+    background-color: rgb(0, 153, 255);
+    color: white;
+    border: none;
+    margin-left: 20px;
+    margin-top: 30px;
+
+}
+.godfather{
+    height: 50%;
+    width: 30%;
+    
+   
+}
+.vito{
+    height: 90%;
+    width: 60%;
+    background-color:  #ff5c75;;
+    margin-top: 40px; 
+}
+
+.vito h3{
+    align-items: center;
+}
+.vito p{
+    margin-top: 30px;
+}
+
+
+
+
+.zlatan{
+   margin-top: 20px; 
+    height: 90%;
+    width: 60%;
+    background-color:  #337ab7;;
+}
+.zlatan p{
+    margin-top: 30px;
+}
+.zlatan h3{
+    margin-top: 20px;
+}
+.ubunifu{
+    height: 50%;
+    width: 30%;
+}
+.webdevs{
+    height: 90%;
+    width: 60%;
+    background-color: #43d39e;;
+}
+.webdevs p{
+  margin: 30px ; 
+}
+.webdevs h3{
+margin-left: 20px;
+}
+    
+
+.mobiledevs{
+    height: 90%;
+    width: 60%;
+    background-color:#ffbe0b;
+    margin-top: 20px;
+}
+.mobiledevs p{
+    margin-top: 30px;
+}
+.mobiledevs h3{
+    margin-left: 20px;
+}
+.mma{
+    height: 100vh;
+    width:100%;
+    display: flex;
+    margin-top: 60px;
+    justify-content: space-evenly;
+   
+} 
+.dana{
+    height: 100%;
+    width: 50%;
+}
+.khabib{
+height: 100%;
+width: 80%;
+background-image: url(/images/back-image2.png);
+margin-left: 10%;
+background-size:cover ;
+
+}
+
+.khabib h2{
+   font-size: 50px;
+   margin-top: 80px;
+   color: #337ab7;
+}
+.khabib p{
+    margin-top: 60px;
+    font-size: 18px;
+}
+.khabib button{
+    height: 5%;
+    width: 28%;
+    border-radius: 30px;
+    border: none;
+    background-color: #ff5c75;
+    margin-top: 30px;
+    color: white;
+    font-size: 15px;
+}
+.ambition{
+    height: 100vh;
+    width: 100%;
+}
+.drive{
+    height: 20%;
+    width: 100%;
+    /* display: flex; */
+    justify-content: first baseline;
+  
+    flex-direction: column;
+    /* background-color: #ff5c75; */
+}
+.drive h6{
+    margin-top: 30px;
+    font-size: 13px;
+    color: #ff5c75;
+    margin-left: 20px;
+}
+.drive p{
+    font-size: 50px;
+    margin-left: 20px;
+}
+.joe{
+    height: 40%;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.rice{
+    height: 100%;
+    width: 25%;
+}
+.rice h2,p{
+    text-align: center;
+}
+.rice img{
+    height: 70%;
+    width: 100%;
+}
+.chicken{
+    height: 100%;
+    width: 25%;
+   
+    
+}
+.chicken h2,p{
+    text-align: center;
+}
+.chicken img{
+    height: 70%;
+    width: 100%;
+    
+}
+.hamburger{
+    height: 100%;
+    width: 25%;
+}
+.hamburger h2,p{
+    text-align: center;
+}
+.hamburger img{
+    height: 70%;
+    width: 100%;
+}
+.gates{
+    height: 40%;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+}
+.block{
+    height: 100%;
+    width: 25%;
+}
+.block h3,p{
+    text-align: center;
+}
+.block img{
+    height: 70%;
+    width: 100%;
+}
+.robotics{
+    height: 100%;
+    width: 25%;
+}
+.robotics h3,p{
+    text-align: center;
+}
+.robotics img{
+    height: 70%;
+    width: 100%;
+}
+.startups{
+    height: 100%;
+    width: 25%;
+}
+.startups h3,p{
+    text-align: center;
+}
+.startups img{
+    height: 70%;
+    width: 100%;
+} 
+.college{
+    height: 100vh;
+    width: 100%;
+    margin-top: 50px;
+display: flex;
+}
+.grizzy{
+    height: 100%;
+    width: 50%;
+}
+.grizzy img{
+   height: 100%;
+   width: 100%;
+}
+
+.chunkz{
+    height: 100%;
+    width: 50%;
+    background-color:  rgb(21, 108, 238);
+   /* display: flex; */
+    
+    /* flex-direction: column; */
+    
+
+}
+.papa h2{
+margin-top: 40px;
+margin-right: 40px;
+text-align: center;
+}
+.darkest{
+    height: 40%;
+    width: 100%;
+    /* background-color: #ff5c75; */
+    display: flex;
+    text-align: center;
+    margin-top: 40px;
+  
+}
+.mini{
+    height: 100%;
+    width: 50%;
+
+}
+
+.max{
+   height: 100%;
+    width: 50%;  
+}
+
+.aj{
+    height: 40%;
+    width: 100%;
+    display: flex;
+    text-align: center;
+}
+.kaka{
+ height: 100%;
+    width: 50%;
+}
+.kante{
+     height: 100%;
+    width: 50%;
+}
+.kfc{
+    height: 100vh;
+    width: 100%;
+}
+.vr{
+    height: 30%;
+    width: 100%;
+    text-align: center;
+   
+    margin-top: 30px;
+}
+.chef{
+    height: 70%;
+    width: 100%;
+}
+.developer{
+    height: 50%;
+    width: 50%;
+   
+}
+.utube{
+    height: 100%;
+    width: 100%;
+    margin-left: 40px;
+  
+}
+.utube  h5, p{
+    text-align: center;
+}
+.moti{
+    height: 100vh;
+    width: 100%;
+   background-image: url(/images/main5.jpg);
+ 
+}
+
+.opacity{
+    height: 100%;
+    width: 100%;
+    display:flex; 
+    align-items: center;
+justify-content: center;
+background-color: rgba(39, 15, 15, 0.301);
+}
+
+.love{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+
+}
+
+
+
+.nina{
+    height: 50%;
+    width: 30%;
+    /* background-color: antiquewhite; */
+    text-align: center;
+}
+.nino{
+    height: 50%;
+    width: 30%;
+    /* background-color:  antiquewhite; */
+    text-align: center;
+}
+.mujer{
+    height: 50%;
+    width: 30%;
+    /* background-color: antiquewhite; */
+    text-align: center;
+}
+.lol{
+    height: 100vh;
+    width: 100%;
+}
+.zurk{
+    height: 20%;
+    width: 100%;
+    background-color: #e6203e;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.zurk p{
+font-size: 25px;
+color: white;
+font-weight: 200;
+}
+.zurk button{
+    height: 30%;
+    width: 13%;
+    border-radius: 30px;
+    border: none;
+    font-size: 14px;
+    font-weight: 300;
+
+}
+.save{
+    height: 40%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.kilo{
+    height: 40%;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+
+}
+.kilo img{
+height: 40%;
+width: 10%;
+}
+.mpabbe{
+    height: 60vh;
+    width: 100%;
+    background-color:  #0c0c0ce1;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    
+}
+.taf{
+height: 40%;
+width: 20%;
+text-align: center;
+color: white;
+font-size: 17px;
+}
+.joao{
+    height: 40%;
+    width: 20%;
+    text-align: center;
+    color: white;
+    font-size: 17px;
+    
+}
+
+.drogba{
+    height: 40%;
+    width: 20%;
+    text-align: center;
+    color: white;
+    font-size: 17px;
+  
+}
+
+.messi{
+    height: 40%;
+width: 20%;
+text-align: center;
+color: white;
+font-size: 17px;
+}
